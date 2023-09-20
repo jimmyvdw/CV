@@ -34,7 +34,7 @@ To work with this CV template, you'll need the following:
 
 ```
 git clone https://github.com/jimmyvdw/CV/
-cd cv-latex
+cd CV
 ```
 
 2. Open the `cv.tex` file using a LaTeX editor of your choice.
