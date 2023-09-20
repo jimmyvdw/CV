@@ -1,0 +1,308 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Jimmy van de Worp} \\ \vspace{8pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:+447508100467}{+44~(0)~7508~100467}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:jv20@ic.ac.uk}{jv20@ic.ac.uk}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/jimmyvdw/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/jimmyvdw}{GitHub}
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://jimmyvdw.github.io}{Website}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://goo.gl/maps/inWJHkjEjRGh1j7R7}{London, United Kingdom}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Imperial College London
+      }{London, United Kingdom}
+      {MEng in Mechanical with Nuclear Engineering;   \textbf{First-Class Honours} (Projected)}{Sep 2020 \textbf{--} Jul 2024}
+    
+    \resumeSubheading
+      {Sir Thomas Rich's School
+      }{Gloucester, United Kingdom}
+      {A-levels;   \textbf{A*A*AA}}{Sep 2018 \textbf{--} Jul 2020}
+
+    \resumeSubheading
+      {Tewkesbury Academy
+      }{Tewkesbury, United Kingdom}
+      {10 GCSEs;   \textbf{A*-A}}{Sep 2013 \textbf{--} Jul 2018}
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Red Earth Systems Ltd}{Tewkesbury, United Kingdom}
+      {Summer Engineering Intern}{Jun 2022 \textbf{--} Sep 2022}
+        \resumeItemListStart
+            \resumeItem{Participated actively in a real-world aerospace initiative, collaborating seamlessly with esteemed company directors, valued customer representatives, and a team of specialized engineers. Contributions proved instrumental in the realization of project objectives.}
+            \resumeItem{Focused on the meticulous design and modeling of housing and racking structures tailored for modular card systems, meticulously crafted using Autodesk Inventor. Developed detailed drawings employing AutoCAD, serving as the blueprint for subsequent manufacturing processes outsourced for execution.}
+            \resumeItem{Conceptualized and developed a critically important PCB design using Altium Designer, enabling conversion of analog currents and voltage variations into actionable digital signals. Integrated this innovative PCB design into the testing process of Ultrasonic Fuel Gauges installed on the Boeing 777 aircraft.}
+            \resumeItem{Engineered a GUI panel for live signal visualization from the PCB, facilitating bidirectional signal transmission and interaction for power interruption testing.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Volunteering and Outreach, Imperial College London}{London, United Kingdom}
+      {Recruitment and Outreach Student Ambassador (Part-Time)}{Feb 2021 \textbf{--} Current}
+        \resumeItemListStart
+            \resumeItem{Engage in prospective student communications, engagement, and activities, serving as a pivotal link between the institution and potential students.}
+            \resumeItem{Develop and execute comprehensive recruitment strategies, leveraging on-campus, in-school, and online platforms to drive interest in STEM higher education offerings.}
+            \resumeItem{Cultivate a compelling narrative that promotes the College's unique attributes and benefits, effectively showcasing its contribution to the world of STEM.}
+            \resumeItem{Personalize interactions with prospective students and families, offering guidance on suitable degree programs and the optimal application process.}
+            \resumeItem{Organize and deliver engaging outreach sessions, presenting opportunities for skill development and emphasizing the fusion of subject, industry, and soft skills.}
+        \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- RESEARCH EXPERIENCE -----------
+
+\section{Research Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Centre for Nuclear Engineering, Imperial College London}{London, United Kingdom}
+      {Undergraduate Researcher $|$ \emph{\href{https://github.com/jimmyvdw/ICL_UROP}{\color{blue}GitHub}}}{Jun 2023 \textbf{--} Oct 2023}
+        \resumeItemListStart
+            \resumeItem{Engaged in a study focused on advanced propulsion for deep space missions, exploring space nuclear thermal rocket propulsion (SNTRP). Collaborated on the development of multi-physics models for SNRTP systems, concentrating on the small nuclear rocket engine (SNRE) and its behaviour during start-up and shutdown.}
+            \resumeItem{Constructed a neutronics model for SNRE's nuclear fuel assemblies using Monte Carlo codes: SERPENT \& OpenMC. Computed nuclear heat sources for CFD and finite element thermal stress models, enhancing the understanding of thermal behaviour during different operational phases.}
+            \resumeItem{Developed CFD and conjugate heat transfer models using Star-CCM+ CFD code, and thermal stress models using ABAQUS finite element thermal stress code. Integrated these models through Siemens SIMULIA framework to comprehensively assess thermal stress under various conditions.}
+            \resumeItem{Utilized GPU-enabled neural network machine learning algorithms to create surrogate models for efficient parametric studies and uncertainty quantification, expanding the project's analytical capabilities.}
+        \resumeItemListEnd
+    
+    % \vspace{14pt}
+    
+    \resumeSubheading
+      {Department of Mechanical Engineering, Imperial College London}{London, United Kingdom}
+      {Design, Make, and Test Project $|$ \emph{\href{https://github.com/jimmyvdw/DMT16_DAQ}{\color{blue}GitHub}}}{Oct 2022 \textbf{--} Jul 2023}
+        \resumeItemListStart
+            \resumeItem{Integral in the design, modeling, and manufacturing of stainless-steel T-Junction for fluid mixing, achieving accurate temperature and pressure data acquisition.}
+            \resumeItem{Designed flexible geometries and micro-drilled thermocouple slots for diverse measurements, showcasing forward-looking integration potential for strain gauges and non-destructive evaluation. Validated measurements through tests, and correlated results with computational fluid dynamics (CFD) simulations to understand fluid behaviour.}
+            \resumeItem{Produced an intuitive GUI which allowed the user to control the initial conditions and boundary conditions. Synchronisation and collection of all the high-frequency measurements using GP/IO such that a time reference can be assigned to each measurement Controlled the actuators with closed-loop feedback in order to produce the desired transient boundary conditions.}
+            \resumeItem{Evaluated T-Junction's response to inlet conditions, assessing pressure fluctuation symmetry and temperature distribution deviations. Despite disparities between experimental data and CFD results, project met design specifications and simulated mixing behaviour.}
+            \resumeItem{Explored expansion potential through design enhancements and additional sensors, highlighting the project's future-focused orientation.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Imperial College Space Society}{London, United Kingdom}
+      {Project Kepler - Chemical Rocket Engine Design}{Oct 2022 \textbf{--} Current}
+        \resumeItemListStart
+            \resumeItem{Contributing to Project Kepler, designing an advanced bipropellant liquid rocket engine with a focus on innovation and skill development.}
+            \resumeItem{Collaborating with industry leaders in the fields of additive metal manufacturing and propulsion testing to enhance and expedite project outcomes.}
+            \resumeItem{Key involvement in modelling critical components using the Fusion360 CAD software, including centrifugal pumps, fuel injectors, and axial turbines.}
+            \resumeItem{Driving the design of an efficient gas generator cycle, aiming for world-record specific impulse performance.}
+        \resumeItemListEnd
+  
+  \resumeSubHeadingListEnd
+  
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{AI Chess Bot} $|$ \href{https://jimmyvdw.github.io}{\color{blue}GitHub}}{}
+          \resumeItemListStart
+            \resumeItem{A backend JavaScript project of an AI-powered chess engine integrated the engine seamlessly with a user-friendly HTML-based GUI for smooth interactivity and visual appeal.}
+            \resumeItem{Implemented an alpha-beta pruning algorithm within the engine, equipped with adjustable decision tree depth to enable the AI to make intelligent moves.}
+            \resumeItem{The chess engine also incorporates advanced mechanics such as castling, en passant, the fifty-move rule, threefold repetition, and pawn promotion.}
+          \resumeItemListEnd
+            
+      \resumeProjectHeading
+        {\textbf{Physics Informed Neural Network Fluid Flow Modelling} $|$ \href{https://jimmyvdw.github.io}{\color{blue}GitHub}}{}
+          \resumeItemListStart
+            \resumeItem{A Python project which implements a variety of neural network operations that manipulate and predict the spatial and velocity characteristics of fluid flow regimes using TensorFlow.}
+            \resumeItem{Added complex physics to the neural network by incorporating the Navier-Stokes equations, enabling the network to predict the velocity and pressure fields of fluid flow.}
+            \resumeItem{Implemented numerous layers, advanced interpolation techniques, and data augmentation to improve the accuracy of the neural network.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming Languages:}{ Python, C, C++, MATLAB, Bash, \TeX, JavaScript, HTML, R} \\ \vspace{-0.17in}
+        
+        \textbf{Applied Software Technologies:}{ Git, SolidWorks, Ansys, Autodesk, Geant4, FLUKA, OpenMC, SERPENT, Microsoft Office, Arduino, Raspberry Pi, Simulink} \\ \vspace{-0.17in}
+    }}
+  \resumeSubHeadingListEnd
+
+
+
+%----------- RELEVANT COURSEWORK -----------
+
+\section{Relevent Modules and Coursework}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Enginering Modules and Coursework:}{ Advanced Numerical Methods IV, Machine Learning IV, Aircraft Engine Technology IV, Statistics III, Corporate Finance III, Thermofluids I-III, Design and Manufacture I-III, Professional Engineering Skills I-III, Mathematics I-II, Computing I-II, Solid Mechanics I-II, Mechatronics and Control Systems I-II} \\ \vspace{-0.17in}        
+        
+        \textbf{Nuclear Modules and Coursework:}{ Nuclear Reactor Physics IV, Nuclear Thermal Hydraulics IV, Nuclear Materials IV, Nuclear Energy III, Nuclear Chemical Engineering III} \\ \vspace{-0.17in}        
+    }}
+  \resumeSubHeadingListEnd
+
+  
+
+%----------- REFERENCES -----------
+\section{\hspace*{\fill}References - Available upon request\hspace*{\fill}}
+  \resumeSubHeadingListStart
+    \resumeItem{}
+  \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
